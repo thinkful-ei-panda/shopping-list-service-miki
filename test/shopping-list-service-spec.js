@@ -1,7 +1,5 @@
 const knex = require('knex');
 const ShoppingListService = require('../src/shopping-list-service');
-const { expect } = require('chai');
-
 
 describe('Shopping items service object', () => {
     let db;
