@@ -51,7 +51,7 @@ describe('Shopping items service object', () => {
     after(() => db.destroy());
 
     // Tests for CRUD & Non-CRUD Methods
-    // Because crud, I thought I was suppose to test yesterdays drills
+    // Because crud, I thought I was supposed to test yesterdays drills
     
     context(`Given 'shopping_list has no data`, () => {
         it('resolves all items', () => {
